@@ -2,7 +2,7 @@ import { GameObject } from "../../EngineFiles/GameObject";
 import { Point3d } from "../../EngineFiles/Point3d";
 import { Scene } from "../../EngineFiles/Scene";
 import { globals } from "../globals";
-import { dickLines, sq1Lines, sq2Lines } from "../userObjects";
+import { dickLines } from "../userObjects";
 
 export const dickSceneInit = (sceneinst: Scene) => {
   globals.dick = new GameObject(
